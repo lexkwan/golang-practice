@@ -1,2 +1,2 @@
 # golang-practice
-Some small tools development in golang.
+Some small tools developed in golang.
