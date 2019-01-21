@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package minionpb;
+
+option go_package="minionpb";
+
+
+message PingRequest{
+    string ip = 1;
+}
+
+message PingResponse{
+    string result = 1;
+}
+
+service PingService{
+
+    rpc Ping(PingRequest) returns (stream PingResponse){};
+}
