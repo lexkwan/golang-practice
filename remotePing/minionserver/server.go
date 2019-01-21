@@ -6,7 +6,7 @@ import (
 	"net"
 	"os/exec"
 
-	minionpb "github/lexkwan/golang-practice/remotePing/minionpb"
+	minionpb "github.com/lexkwan/golang-practice/remotePing/minionpb"
 
 	"google.golang.org/grpc"
 )
